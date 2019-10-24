@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+    <p>Your account</p>
+    <div class="register">
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Username" name="Username" required><br>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Password" name="password" required><br>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="E-mail" name="email" required><br>
+
+        <label for="file"><b>Profile photo</b></label>
+        <input type="file" placeholder="file" name="file">
+
+    </div>
+    <br>
+    <p>Personal data</p>
+    <div class="register">
+
+        <label for="firstName"><b>First name</b></label>
+        <input type="text" placeholder="First name" name="firstName" required><br>
+
+        <label for="lastName"><b>Last name</b></label>
+        <input type="text" placeholder="Last name" name="lastName" required><br>
+
+
+        <label for="gender"><b>Gender</b></label>
+        <input type="radio" name="gender" value="male"> Male
+        <label for="gender"><b></b></label>
+        <input type="radio" name="gender" value="female"> Female<br>
+
+        <label for="birthDate"><b>Birthdate</b></label>
+        <input type="date" id="start" name="date" required>
+
+    </div>
+    <br>
+    <p>Additional</p>
+    <div class="register">
+
+        <label for="comments"><b>Comments</b></label>
+        <textarea name="comment" rows="15" cols="50">Your text here</textarea><br>
+
+    </div>
+    <br>
+    <p>Subscription</p>
+    <div class="register">
+
+        <label for="subscr"></label>
+        <input type="checkbox" name="webs" value="news"> Webskola news<br>
+        <input type="checkbox" name="brand" value="new" checked> Digibrand news<br>
+
+    </div>
+    <br>
+    <p>Security code</p>
+    <div class="register">
+
+        <label for="secure"></label>
+        <input type="image" name="captchaP" src="captcha.png">
+        <input type="text" id="captcha" name="captcha">
+
+    </div>
+    <br>
+    <div class="btn">
+        <label for="button"></label>
+        <input type="button" name="button" value="Send form">
+    </div>
+</form>
+
+</body>
+</html>

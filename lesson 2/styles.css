@@ -1,0 +1,128 @@
+.navMenu {
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    background-color: antiquewhite;
+}
+
+.logo {
+     width: 20%;
+     text-align: left;
+}
+
+.navBar {
+    width: 80%;
+    text-align: right;
+}
+
+.pageInfo {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.moodCreations {
+    padding: 15px;
+}
+
+.mood {
+    font-size: xx-large;
+}
+
+.creations {
+    font-size: large;
+}
+
+.pageInfo div {
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.headline {
+    text-align: center;
+    padding: 10px;
+    margin: unset;
+}
+
+.offer {
+    width: 25%;
+    text-align: center;
+}
+
+.portfolio {
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.portfolio div {
+    text-align: center;
+}
+
+.prices {
+    width: 100%;
+    height: 350px;
+    background-color: coral;
+}
+
+.priceSelect {
+    text-align: center;
+}
+
+.packs div {
+    width: 25%;
+    text-align: center;
+}
+
+.team {
+    width: 100%;
+    height: 150px;
+    background-color: darkseagreen;
+}
+
+.team div {
+    text-align: center;
+}
+
+.contacts {
+    width: 100%;
+    height: 150px;
+    background-color: mediumpurple;
+}
+
+.contacts div {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: slategray;
+    text-align: center;
+}
+
+.footer p {
+    margin: unset;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+.offers {
+    display: flex;
+}
+
+.packs {
+    display: flex;
+}
+
