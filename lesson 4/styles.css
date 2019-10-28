@@ -8,10 +8,11 @@
 label {
     float: left;
     padding: 18px;
+    display: inline-block;
 }
 
 input[type=text], input[type=password]{
-    width: 70%;
+    width: 60%;
     padding: 6px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -24,7 +25,7 @@ input[type=text], input[type=password]{
 input[type=file], input[type=date] {
     border-color: darksalmon;
     background: #f1f1f1;
-    width: 70%;
+    width: 60%;
     padding: 6px;
     float: right;
 }
@@ -35,19 +36,34 @@ input[type=checkbox] {
 }
 
 input[type=radio] {
-    margin: 28px;
     display: inline-block;
-}
-.gender {
-    display: inline-block;
+    margin: 21px 4px 30px 80px;
 }
 
 #captcha {
-    width: 30%;
+    width: 40%;
+}
+
+#registration label {
+    float: left;
+    display: inline-block;
+}
+
+#registration label.birth{
+    padding: 7px 0px 0px 17px;
+    display: inline-block;
+    height: 12px;
+}
+
+#registration br {
+    clear: both;
 }
 
 h1 {
     text-align: center;
+    font-size: 22px;
+    margin: 20px 24px;
+    color: #998E1E;
 }
 
 form {
@@ -61,7 +77,7 @@ form {
 div {
     background-color: white;
     margin: 0 auto;
-    width: 30%;
+    /*width: 30%;*/
     display: table;
 }
 
@@ -84,3 +100,5 @@ p {
     text-align: end;
     width: 92%;
 }
+
+

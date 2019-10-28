@@ -30,7 +30,7 @@
     </div>
     <br>
     <p>Personal data</p>
-    <div class="register">
+    <div class="register" id="registration">
 
         <label for="firstName"><b>First name</b></label>
         <input type="text" placeholder="First name" name="firstName" required><br>
@@ -41,10 +41,9 @@
 
         <label for="gender"><b>Gender</b></label>
         <input type="radio" name="gender" value="male"> Male
-        <label for="gender"><b></b></label>
         <input type="radio" name="gender" value="female"> Female<br>
 
-        <label for="birthDate"><b>Birthdate</b></label>
+        <label for="birthDate" class="birth"><b>Birthdate</b></label>
         <input type="date" id="start" name="date" required>
 
     </div>
@@ -76,8 +75,8 @@
     </div>
     <br>
     <div class="btn">
-        <label for="button"></label>
-        <input type="button" name="button" value="Send form">
+        <label for="submit"></label>
+        <input type="submit" name="button" value="Send form">
     </div>
 </form>
 
