@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc1b6d1-3312-4c14-9639-ab6ece83893c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html basics/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/twitter.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -34,15 +38,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView />
       </list>
     </option>
   </component>
@@ -64,7 +63,13 @@
       <workItem from="1571916772005" duration="8625000" />
       <workItem from="1571929223766" duration="1739000" />
       <workItem from="1571931220923" duration="9524000" />
-      <workItem from="1572351533612" duration="5404000" />
+      <workItem from="1572351533612" duration="5645000" />
+      <workItem from="1572365880650" duration="5763000" />
+      <workItem from="1572538603179" duration="3995000" />
+      <workItem from="1572887717570" duration="2888000" />
+      <workItem from="1572960769481" duration="3567000" />
+      <workItem from="1572972186629" duration="3883000" />
+      <workItem from="1573071498507" duration="2891000" />
     </task>
     <servers />
   </component>
@@ -81,10 +86,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1571685358746" />
-    <state x="426" y="188" key="run.anything.popup" timestamp="1571924590157">
+    <state x="426" y="188" key="run.anything.popup" timestamp="1572545722601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="188" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1571924590157" />
+    <state x="426" y="188" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1572545722601" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1571683265111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
