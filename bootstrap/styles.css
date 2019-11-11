@@ -195,21 +195,21 @@ ul li{
     display: flex;
 }
 
-input[type=text], input[type=password]{
-    width: 30%;
-    padding: 6px;
-    display: inline-block;
-    margin: 7px;
-    float: left;
-}
+/*input[type=text], input[type=password]{*/
+/*    width: 30%;*/
+/*    padding: 6px;*/
+/*    display: inline-block;*/
+/*    margin: 7px;*/
+/*    float: left;*/
+/*}*/
 
-.register {
-    width: 100%;
-    margin: 0 auto;
-}
+/*.register {*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-label {
-    float: left;
-    padding: 18px;
-    display: inline-block;
-}
+/*label {*/
+/*    float: left;*/
+/*    padding: 18px;*/
+/*    display: inline-block;*/
+/*}*/
