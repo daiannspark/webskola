@@ -1,29 +1,48 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .navMenu {
     width: 100%;
-    height: 50px;
-    display: inline-flex;
-    background-color: tomato;
+    height: auto;
+    /*display: inline-flex;*/
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 .logo {
-     width: 20%;
-     text-align: left;
-    margin-left: 40px;
+    text-align: left;
+    padding: 10px;
 }
+
+.logotip {
+    width: 30px;
+    height: auto;
+}
+
+/*.logo p {*/
+/*    padding-left: 15px;*/
+/*    margin: unset;*/
+/*}*/
 
 .navBar {
-    width: 80%;
     text-align: right;
-    margin-right: 40px;
 }
 
-.navBar > a {
-    text-decoration-line: none;
+.pages {
+
+}
+
+.pages li {
+    padding: 10px;
 }
 
 .pageInfo {
     width: 100%;
-    height: 500px;
+    height: auto;
     background-image: url("images/bg-red.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -37,23 +56,21 @@
 }
 
 .moodCreations {
-    padding: 15px;
+    padding: 75px 0 35px;
 }
 
 .mood {
-    font-size: 110px;
-    font-family: 'Monoton';
-    color: #f1f1f1;
-    margin: unset;
+    width: 75%;
+    height: auto;
 }
 
-.creations {
-    font-size: 40px;
-    font-family: Roboto;
-    font-weight: bolder;
-    color: #f1f1f1;
-    margin: unset;
-}
+/*.creations {*/
+/*    font-size: 40px;*/
+/*    font-family: Roboto;*/
+/*    font-weight: bolder;*/
+/*    color: #f1f1f1;*/
+/*    margin: unset;*/
+/*}*/
 
 .pageInfo div {
     text-align: center;
@@ -61,7 +78,7 @@
 
 .services {
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: tomato;
 }
 
@@ -83,7 +100,7 @@
 
 .portfolio {
     width: 100%;
-    height: 1000px;
+    height: auto;
     background-image: url("images/bg-green.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +113,7 @@
 
 .prices {
     width: 100%;
-    height: 500px;
+    height: auto;
     /*background-image: url("images/bg-green.svg");*/
     background:  linear-gradient(
             rgba(103, 255, 170, 0.45),
@@ -126,7 +143,7 @@
 
 .team {
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: lightgreen;
 }
 
@@ -136,7 +153,7 @@
 
 .contacts {
     width: 100%;
-    height: 1000px;
+    height: auto;
     background-image: url("images/bg-blue.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -195,21 +212,26 @@ ul li{
     display: flex;
 }
 
-/*input[type=text], input[type=password]{*/
-/*    width: 30%;*/
-/*    padding: 6px;*/
-/*    display: inline-block;*/
-/*    margin: 7px;*/
-/*    float: left;*/
-/*}*/
+.btnTop {
+    display: flex;
+    flex-flow: row-reverse;
+    position: sticky;
+    bottom: 20px;
+    /*right: 20px;*/
+    z-index: 1;
 
-/*.register {*/
-/*    width: 100%;*/
-/*    margin: 0 auto;*/
-/*}*/
+}
+#myBtn {
+    max-width: 45px;
+    border-color:
+            rgba(85, 85, 85, 0.2);
+    background-color:
+            rgb(100,100,100);
+    padding: 5px;
+    border-radius: 4px;
 
-/*label {*/
-/*    float: left;*/
-/*    padding: 18px;*/
-/*    display: inline-block;*/
-/*}*/
+}
+
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
