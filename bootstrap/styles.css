@@ -19,25 +19,46 @@
 }
 
 .logotip {
-    width: 30px;
+    width: 40px;
     height: auto;
+    margin-left: 125px;
 }
 
-/*.logo p {*/
-/*    padding-left: 15px;*/
-/*    margin: unset;*/
-/*}*/
+.workShop {
+    margin: unset;
+    padding: 10px 0 0 10px;
+}
+
+.logo p {
+    color: white;
+}
 
 .navBar {
     text-align: right;
 }
 
 .pages {
-flex-wrap: unset;
+    flex-wrap: unset;
 }
 
 .pages li {
-    padding: 10px;
+    padding: 20px 10px 0 10px;
+    text-decoration: none;
+}
+
+.pages li:hover{
+    border-top-style: solid;
+    border-top-color: rgb(241, 235, 233);
+    padding-top: 17px;
+}
+
+.underLines {
+    color: white;
+}
+
+.underLines:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .pageInfo {

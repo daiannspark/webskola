@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson 4/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson 4/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,12 @@
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -73,7 +77,8 @@
       <workItem from="1573747810491" duration="7648000" />
       <workItem from="1574081556655" duration="11919000" />
       <workItem from="1574179176088" duration="4565000" />
-      <workItem from="1574784518289" duration="9957000" />
+      <workItem from="1574784518289" duration="10666000" />
+      <workItem from="1575314575863" duration="6605000" />
     </task>
     <servers />
   </component>
