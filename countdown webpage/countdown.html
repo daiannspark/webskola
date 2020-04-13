@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Countdown</title>
+
+    <script>
+        const showCountdown = () => {
+            console.log (moment("20200512", "YYYYMMDD").fromNow());
+            let seconds = moment('2020-05-12').diff(moment(), 'seconds');
+            console.log (seconds);
+            let secondsInDay=60*60*24;
+            let days = Math.trunc (seconds / secondsInDay);
+            console.log (days);
+            let hours = Math.trunc(( seconds % secondsInDay)/3600);
+            console.log ( hours); //секунды в остатке дня - и минуты, и секунды
+            let secondsInMinutes = 60;
+            let minutes = Math.trunc ( (seconds % secondsInDay % 3600)/60); //3600 - seconds in hour
+            console.log (minutes);
+            let secondsLeftovers = seconds % secondsInDay % 3600 % 60;
+            console.log (secondsLeftovers);
+
+            return {
+                "days" : days,
+                "hours" : hours,
+                "minutes" : minutes,
+                "secondsLeftovers" : secondsLeftovers
+            }
+        };
+
+        $(function() {
+            let result = showCountdown();
+
+
+            $('#days').append("Осталось дней: " + result.days);
+            $('#hours').append("Осталось часов: " + result.hours);
+            $('#minutes').append("Осталось минут: " + result.minutes);
+            $('#seconds').append("Осталось секунд: " + result.secondsLeftovers);
+        });
+    </script>
+
+</head>
+
+<body>
+
+<div class="countDown">
+    <p id="days"></p>
+    <p id="hours"></p>
+    <p id="minutes"></p>
+    <p id="seconds"></p>
+</div>
+
+</body>
+
+</html>
